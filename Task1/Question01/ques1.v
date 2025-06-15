@@ -40,8 +40,8 @@ output reg outand2, output reg outor2,output reg outxor2,output reg outnand2,out
 	 ////////// Dataflow modelling ///////////////////
 	 assign outand1=in1&in2;
 	 assign outor1=in1|in2;
-	 assign notout11=~in1;
-	 assign notout21=~in2;
+	 assign notin11=~in1;
+	 assign notin21=~in2;
 	 assign outnand1=~(in1&in2);
 	 assign outnor1=~(in1|in2);
 	 assign outxor1=in1^in2;

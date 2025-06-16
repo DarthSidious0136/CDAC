@@ -59,7 +59,7 @@ localparam S0 = 3'b000,
             state <= S0;  
           end else begin
             seq_detected <= 1'b0;
-            state <= S0;
+            state <= S2;
           end
         end
 
